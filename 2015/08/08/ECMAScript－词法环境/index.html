@@ -26,7 +26,7 @@
 
 
 
-  <meta name="keywords" content="Object-C," />
+  <meta name="keywords" content="Hexo,next" />
 
 
 
@@ -35,16 +35,40 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.4" />
 
 
-<meta name="description">
+<meta name="description" content="＃词法环境
+
+词法环境是ECMAScript规范类型,用于定义 [ 特定变量 ] 和 [ 函数标识符 ] 在ECMAScript代码词法的 [ 嵌套结构 ] 上相关联的关系
+一个 [ 词法环境 ] 由一个 [ 环境记录项 ] 和可能为空的[ 外部词法环境引用 ] 构成
+词法环境与 [ 函数定义 ] [ with语句 ]  [ try语句 ] 相关联。
+
+＃环境记录项
+
+[ 环境记录项 ] 记录了关">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Object-C基本数据类型">
-<meta property="og:url" content="http://yoursite.com/2015/07/29/Object-C基本数据类型/index.html">
+<meta property="og:title" content="ECMAScript－词法环境">
+<meta property="og:url" content="http://yoursite.com/2015/08/08/ECMAScript－词法环境/index.html">
 <meta property="og:site_name" content="aniwei">
-<meta property="og:description">
-<meta property="og:updated_time" content="2015-07-29T06:58:02.000Z">
+<meta property="og:description" content="＃词法环境
+
+词法环境是ECMAScript规范类型,用于定义 [ 特定变量 ] 和 [ 函数标识符 ] 在ECMAScript代码词法的 [ 嵌套结构 ] 上相关联的关系
+一个 [ 词法环境 ] 由一个 [ 环境记录项 ] 和可能为空的[ 外部词法环境引用 ] 构成
+词法环境与 [ 函数定义 ] [ with语句 ]  [ try语句 ] 相关联。
+
+＃环境记录项
+
+[ 环境记录项 ] 记录了关">
+<meta property="og:updated_time" content="2015-08-08T16:24:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Object-C基本数据类型">
-<meta name="twitter:description">
+<meta name="twitter:title" content="ECMAScript－词法环境">
+<meta name="twitter:description" content="＃词法环境
+
+词法环境是ECMAScript规范类型,用于定义 [ 特定变量 ] 和 [ 函数标识符 ] 在ECMAScript代码词法的 [ 嵌套结构 ] 上相关联的关系
+一个 [ 词法环境 ] 由一个 [ 环境记录项 ] 和可能为空的[ 外部词法环境引用 ] 构成
+词法环境与 [ 函数定义 ] [ with语句 ]  [ try语句 ] 相关联。
+
+＃环境记录项
+
+[ 环境记录项 ] 记录了关">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -54,7 +78,7 @@
   };
 </script>
 
-    <title> Object-C基本数据类型 // aniwei </title>
+    <title> ECMAScript－词法环境 // aniwei </title>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 <!--[if lte IE 8]>
@@ -149,7 +173,7 @@
           
           
             
-              Object-C基本数据类型
+              ECMAScript－词法环境
             
           
         </h1>
@@ -158,8 +182,8 @@
       <div class="post-meta">
         <span class="post-time">
           发表于
-          <time itemprop="dateCreated" datetime="2015-07-29T14:50:04+08:00" content="2015-07-29">
-            2015-07-29
+          <time itemprop="dateCreated" datetime="2015-08-08T18:49:44+08:00" content="2015-08-08">
+            2015-08-08
           </time>
         </span>
 
@@ -177,19 +201,37 @@
       
 
       
-        <span itemprop="articleBody"></span>
+        <span itemprop="articleBody"><p>＃词法环境</p>
+<ul>
+<li>词法环境是ECMAScript规范类型,用于定义 [ 特定变量 ] 和 [ 函数标识符 ] 在ECMAScript代码词法的 [ 嵌套结构 ] 上相关联的关系</li>
+<li>一个 [ 词法环境 ] 由一个 [ 环境记录项 ] 和可能为空的[ 外部词法环境引用 ] 构成</li>
+<li>词法环境与 [ 函数定义 ] [ with语句 ]  [ try语句 ] 相关联。</li>
+</ul>
+<p>＃环境记录项</p>
+<ul>
+<li>[ 环境记录项 ] 记录了关联词法环境域内创建的标识符绑定情形</li>
+<li>在ECMAScript标准中，环境记录项有两类 [ 声明式环境记录项 ] [ 对象式环境记录项 ]</li>
+<li>[ 声明式环境记录项 ] 用于定义将 [ 标识符 ] 与语言值直接绑定的ECMAScript语法元素<br>  eg. [ 函数定义 ] [ 变量定义 ] 以及 [ Catch语句 ]</li>
+</ul>
+</span>
       
     </div>
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Object-C/" rel="tag">#Object-C</a>
-          
-        </div>
-      
 
+      
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/08/06/ECMAScript笔记（一）/" rel="next">ECMAScript笔记（一）</a>
+            
+          </div>
+        </div>
       
 
       
@@ -249,7 +291,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -263,7 +305,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">0</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
